@@ -217,7 +217,7 @@ class RegionProperties:
 
     @property
     def equivalent_diameter(self):
-      return ((self._ndim*2) * self.area / PI) ** (1/self._ndim)
+      return ((self._ndim * 2) * self.area / PI) ** (1/self._ndim)
 
     @property
     def euler_number(self):
